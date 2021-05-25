@@ -1,0 +1,32 @@
+.header-logo{
+  margin-left: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.login a{
+  color: #00AA50;
+  margin: 0  60px 0 22px;
+
+}
+.register a{
+  color: #00AA50;
+  margin: 0 22px;
+
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar{
+  color:#F2F2F2;
+}
+.space {
+  border-left: #999999 1px solid;
+  width: 1px;
+  height:
+  31px;
+}

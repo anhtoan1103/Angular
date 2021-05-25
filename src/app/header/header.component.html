@@ -1,0 +1,31 @@
+<mat-toolbar>
+  <div class="header-logo">
+    <a href="/homepage">
+      <img src="../../assets/svg/Logo.svg" alt="Logo" />
+    </a>
+  </div>
+  <span>
+    <a routerLink="/homepage"></a>
+  </span>
+  <span class="spacer"></span><div class="header-dropdown">
+    <a mat-button routerLink="/">Trở thành Đối tác của SaFaGo</a>
+  </div>
+  <div class="header-transport">
+    <div class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
+      <button class="btn  mr-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop.open()">Trở thành Đối tác của SaFaGo</button>
+      <div ngbDropdownMenu aria-labelledby="dropdownManual">
+        <button ngbDropdownItem>Action - 1</button>
+        <button ngbDropdownItem>Another Action</button>
+        <button ngbDropdownItem>Something else is here</button>
+      </div>
+    </div>
+    <a mat-button routerLink="/">Trung tâm Vận chuyển</a>
+  </div>
+  <div class="register">
+    <a mat-button routerLink="/">Đăng Ký </a>
+  </div>
+  <div class="space"></div>
+  <div class="login">
+    <a mat-button routerLink="/">Đăng Nhập</a>
+  </div>
+</mat-toolbar>
